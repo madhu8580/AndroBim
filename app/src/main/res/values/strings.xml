@@ -1,4 +1,7 @@
 <resources>
     <string name="app_name">AndroBim</string>
     <string name="facio">FACIO</string>
+    <string name="hi_sabi_please_use_the_link_below_to_verify_your_mail_and_start_using_ficio">HI sabi! please use the link below to verify your mail and start using FICIO.</string>
+    <string name="verify_email">VERIFY EMAIL</string>
+    <string name="questions">Questions?</string>
 </resources>
