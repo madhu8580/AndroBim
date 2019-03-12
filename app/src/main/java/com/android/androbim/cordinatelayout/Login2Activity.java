@@ -1,11 +1,12 @@
-package com.android.androbim;
+package com.android.androbim.cordinatelayout;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.TextView;
+
+import com.android.androbim.R;
 
 public class Login2Activity extends AppCompatActivity {
 
