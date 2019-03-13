@@ -9,29 +9,25 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
+        <activity android:name=".RegistrationTask"></activity>
+        <activity android:name=".LoginTask2" />
+        <activity android:name=".LoginTask" />
         <activity
             android:name=".cordinatelayout.VerifyEmailActivity"
-            android:label="Verify Email">
-
-        </activity>
-
+            android:label="Verify Email" />
         <activity
             android:name=".cordinatelayout.Login2Activity"
             android:label="Login 2" />
-
         <activity
-            android:name="linearlayout.Practice"
-            android:label="Login 1">
+            android:name=".relativelayout.RelativelayoutExample"
+            android:label="LinerLayout Weights">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
-
         </activity>
-
         <activity android:name=".linearlayout.LinearLayoutWithWeights" />
-
     </application>
 
 </manifest>

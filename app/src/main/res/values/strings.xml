@@ -4,4 +4,15 @@
     <string name="hi_sabi_please_use_the_link_below_to_verify_your_mail_and_start_using_ficio">HI sabi! please use the link below to verify your mail and start using FICIO.</string>
     <string name="verify_email">VERIFY EMAIL</string>
     <string name="questions">Questions?</string>
+    <string name="name">Name</string>
+    <string name="_91_9704858580">+91 9704858580</string>
+    <string name="madhu8580_gmail_com">madhu8580@gmail.com</string>
+    <string name="passsword">Passsword</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="select_branch">Select Branch</string>
+    <string name="select_year">Select Year</string>
+    <string name="select_section">Select Section</string>
+    <string name="student_signup">STUDENT SIGNUP</string>
+    <string name="vjit">VJIT</string>
+    <string name="canteen_app">CANTEEN APP</string>
 </resources>
