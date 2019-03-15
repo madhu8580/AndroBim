@@ -9,7 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".DrawableShapesActivity"></activity>
+        <activity android:name=".implicitIntent.ActivityTwo"></activity>
+        <activity android:name=".DrawableShapesActivity" />
         <activity android:name=".RegistrationTask" />
         <activity android:name=".LoginTask2" />
         <activity android:name=".LoginTask" />
@@ -19,9 +20,7 @@
         <activity
             android:name=".cordinatelayout.Login2Activity"
             android:label="Login 2" />
-        <activity
-            android:name=".relativelayout.RelativelayoutExample"
-            android:label="LinerLayout Weights">
+        <activity android:name=".implicitIntent.ActivityOne">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
