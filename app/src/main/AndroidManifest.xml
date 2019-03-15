@@ -20,7 +20,7 @@
         <activity
             android:name=".cordinatelayout.Login2Activity"
             android:label="Login 2" />
-        <activity android:name=".implicitIntent.ActivityOne">
+        <activity android:name=".implicitIntent.One">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -28,6 +28,7 @@
             </intent-filter>
         </activity>
         <activity android:name=".linearlayout.LinearLayoutWithWeights" />
+        <activity android:name=".implicitIntent.Two" />
     </application>
 
 </manifest>
