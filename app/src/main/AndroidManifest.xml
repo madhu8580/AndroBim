@@ -9,8 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".implicitIntent.ResultActivity"></activity>
-        <activity android:name=".implicitIntent.ActivityTwo" />
+        <activity android:name=".implicitIntent.ResultActivity" />
         <activity android:name=".DrawableShapesActivity" />
         <activity android:name=".RegistrationTask" />
         <activity android:name=".LoginTask2" />
@@ -21,8 +20,7 @@
         <activity
             android:name=".cordinatelayout.Login2Activity"
             android:label="Login 2" />
-
-        <activity android:name=".implicitIntent.AdditionOperation">
+        <activity android:name=".spinner.SpinnerActivity1">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -30,6 +28,12 @@
             </intent-filter>
         </activity>
         <activity android:name=".linearlayout.LinearLayoutWithWeights" />
+        <activity android:name=".implicitIntent.PassingData" />
+        <activity android:name=".simpleCalculator.Practice" />
+        <activity android:name=".frameLayout.FrameLayout" />
+        <activity android:name=".frameLayout.FrameLayoutAkhil" />
+        <activity android:name=".frameLayout.FrameLayoutPractice" />
+        <activity android:name=".spinner.SpinnerActivity" />
     </application>
 
 </manifest>

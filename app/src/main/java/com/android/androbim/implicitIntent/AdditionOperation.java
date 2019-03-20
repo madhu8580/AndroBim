@@ -23,7 +23,7 @@ public class AdditionOperation extends AppCompatActivity {
 
         etFirstNo = findViewById(R.id.et_first_no);
         etSecondNo = findViewById(R.id.et_second_no);
-        result = findViewById(R.id.txt_result);
+//        result = findViewById(R.id.txt_result);
         btnAdd = findViewById(R.id.btn_add);
 
         btnAdd.setOnClickListener(new View.OnClickListener() {
@@ -35,7 +35,7 @@ public class AdditionOperation extends AppCompatActivity {
 
                 double sum = num1 + num2;
 
-                result.setText(Double.toString(sum));
+//                result.setText(Double.toString(sum));
 
                 Intent i = new Intent(getApplicationContext(), ResultActivity.class);
                 i.putExtra("addition", sum);

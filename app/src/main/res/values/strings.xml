@@ -15,4 +15,13 @@
     <string name="student_signup">STUDENT SIGNUP</string>
     <string name="vjit">VJIT</string>
     <string name="canteen_app">CANTEEN APP</string>
+    <string name="clear">Clear</string>
+    <string name="result">Result</string>
+
+    <string-array name="info">
+        <item name="...Gender..." />
+        <item name="Male" />
+        <item name="Female" />
+    </string-array>
+
 </resources>
