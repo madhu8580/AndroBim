@@ -9,31 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".implicitIntent.ResultActivity" />
-        <activity android:name=".DrawableShapesActivity" />
-        <activity android:name=".RegistrationTask" />
-        <activity android:name=".LoginTask2" />
-        <activity android:name=".LoginTask" />
-        <activity
-            android:name=".cordinatelayout.VerifyEmailActivity"
-            android:label="Verify Email" />
-        <activity
-            android:name=".cordinatelayout.Login2Activity"
-            android:label="Login 2" />
-        <activity android:name=".spinner.SpinnerActivity1">
+
+        <activity android:name=".simpleFragment.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".linearlayout.LinearLayoutWithWeights" />
-        <activity android:name=".implicitIntent.PassingData" />
-        <activity android:name=".simpleCalculator.Practice" />
-        <activity android:name=".frameLayout.FrameLayout" />
-        <activity android:name=".frameLayout.FrameLayoutAkhil" />
-        <activity android:name=".frameLayout.FrameLayoutPractice" />
-        <activity android:name=".spinner.SpinnerActivity" />
+
+        <activity
+            android:name=".custom_list_view.CustomListViewActivity"
+            android:label="Simple ListView">
+
+        </activity>
     </application>
 
 </manifest>

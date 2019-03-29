@@ -16,8 +16,6 @@ public class Practice extends AppCompatActivity implements View.OnClickListener 
     private Button btnAdd, btnSub, btnMul, btnDiv, btnClear;
     private TextView tvResult;
 
-    double res = 0;
-
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
