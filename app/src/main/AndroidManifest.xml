@@ -9,18 +9,21 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".tabs.TabsActivity">
 
-        <activity android:name=".simpleFragment.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
+        <activity android:name=".sharedPreferences.SharedPreferencesActivity" />
+        <activity android:name=".simpleFragment.MainActivity" />
         <activity
             android:name=".custom_list_view.CustomListViewActivity"
-            android:label="Simple ListView">
-
+            android:label="Simple ListView" />
+        <activity android:name=".sharedPreferences.PreferencesNextActivity" />
+        <activity android:name=".sharedPreferences.SharedPreferencesActivity2">
         </activity>
     </application>
 
