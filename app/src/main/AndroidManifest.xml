@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.android.androbim">
 
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -9,22 +13,28 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".tabs.TabsActivity">
+        <activity android:name=".feetToMeterConverter.FeetToMeterConverterActivity">
+        </activity>
 
+        <activity android:name=".cameraTask.CameraActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+
+        <activity android:name=".bmiCalculator.BMICalculatorActivity">
+        </activity>
+
+        <activity android:name=".tabs.TabsActivity" />
         <activity android:name=".sharedPreferences.SharedPreferencesActivity" />
         <activity android:name=".simpleFragment.MainActivity" />
+
         <activity
             android:name=".custom_list_view.CustomListViewActivity"
             android:label="Simple ListView" />
         <activity android:name=".sharedPreferences.PreferencesNextActivity" />
-        <activity android:name=".sharedPreferences.SharedPreferencesActivity2">
-        </activity>
+        <activity android:name=".sharedPreferences.SharedPreferencesActivity2" />
     </application>
 
 </manifest>

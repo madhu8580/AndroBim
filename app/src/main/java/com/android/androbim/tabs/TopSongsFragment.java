@@ -16,7 +16,6 @@ import com.android.androbim.R;
 
 public class TopSongsFragment extends Fragment {
 
-
     ListView listTopSongs;
     String[] str = {"JJFFJJF", "HKGKUjk", "KHUYUTYUT", "IKUGYHU", "JUIYYUUIUI", "IOUYUJUI"};
     ArrayAdapter<String> arrayAdapter;
@@ -26,6 +25,7 @@ public class TopSongsFragment extends Fragment {
     public View onCreateView(@NonNull LayoutInflater inflater, @Nullable ViewGroup container, @Nullable Bundle savedInstanceState) {
         View view = inflater.inflate(R.layout.fragment_top_songs, container, false);
 
+        listTopSongs = view.findViewById(R.id.list_top_songs);
         arrayAdapter = new ArrayAdapter<>(getActivity(), android.R.layout.simple_list_item_1, str);
         listTopSongs.setAdapter(arrayAdapter);
         return view;
